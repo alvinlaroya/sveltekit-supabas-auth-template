@@ -10,19 +10,12 @@
 
 	import {
 		House,
-		ShoppingCart,
-		Package,
 		Package2,
-		Users,
 		Search,
-		LineChart,
 		Store,
 		Menu,
-		Mail,
-		Settings,
 		LogOut,
 	} from "lucide-svelte";
-	import { Root } from "postcss";
 
 	export let data;
 	$: ({ supabase } = data);
@@ -41,27 +34,6 @@
 			icon: House,
 			text: "Home",
 			link: "/private",
-		},
-		{
-			icon: ShoppingCart,
-			text: "Orders",
-			link: "/private/orders",
-			badge: 14,
-		},
-		{
-			icon: Package2,
-			text: "Products",
-			link: "/private/products",
-		},
-		{
-			icon: Users,
-			text: "Customers",
-			link: "/private/customers",
-		},
-		{
-			icon: LineChart,
-			text: "Analyytics",
-			link: "/private/analytics",
 		},
 	];
 </script>

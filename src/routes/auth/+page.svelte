@@ -31,11 +31,11 @@
 			class="absolute inset-0 bg-cover bg-center"
 			style="
 				background-image:
-					url(https://wallpapercave.com/wp/wp6701661.jpg);"
+					url(https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=);"
 		/>
 		<div class="relative z-20 flex items-center text-lg font-medium">
 			<!-- <Command class="mr-2 h-6 w-6" /> -->
-			<a href="/"> App Of Coffee </a>
+			<a href="/"> Name Of Application </a>
 		</div>
 		<div class="relative z-20 mt-auto">
 			<blockquote class="space-y-2">
@@ -57,7 +57,7 @@
 					Login with your credentials
 				</h1>
 				<p class="text-muted-foreground text-sm">
-					Enter your email and password below to manage your store
+					Enter your email and password below to manage your Dashboard
 				</p>
 			</div>
 			<UserAuthForm />
